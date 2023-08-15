@@ -11,7 +11,7 @@ Programming Language: Javascript\
 Versions:\
 Node Version Manager (nvm) - version 1.1.11\
 Node.js - LTS version 18.17.1 \
-\
+
 # Setup Instructions
 
 1. Install Visual Studio Code (https://code.visualstudio.com/)
