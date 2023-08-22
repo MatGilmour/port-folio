@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -27,8 +28,15 @@ export default function Home() {
           </a>
         </div>
       </div>
+      <div>
+        <Link href='/about'>ABOUT</Link>
+      </div>
 
-      <div className={styles.center}>
+    </main>
+  )
+}
+
+      {/* <div className={styles.center}>
         <Image
           className={styles.logo}
           src="/next.svg"
@@ -37,8 +45,9 @@ export default function Home() {
           height={37}
           priority
         />
-      </div>
+      </div> */}
 
+      {/* 
       <div className={styles.grid}>
         <a
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
@@ -88,8 +97,6 @@ export default function Home() {
           <p>
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
-        </a>
+        </a> 
       </div>
-    </main>
-  )
-}
+      */}
