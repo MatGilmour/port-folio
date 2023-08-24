@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Portfolio of Projects',
-  description: 'Learn more about my skills, competencies and lifestyle',
+  title: 'Project Portfolio',
+  description: 'Provides a list of active, future and completed projects'
 }
 
 export default function DashboardLayout({ children }) {

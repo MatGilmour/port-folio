@@ -1,12 +1,12 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-import TopNav from './components/TopNav'
+import TopNav from './components/TopNav/TopNav'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Home Page',
-  description: 'Default landing page for website',
+  description: 'Default landing page for website'
 }
 
 export default function RootLayout({ children }) {

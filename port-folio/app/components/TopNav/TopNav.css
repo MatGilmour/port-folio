@@ -1,0 +1,23 @@
+.scroll-navbar {
+    transition: all 0.3s ease-in-out;
+}
+
+.scrolled {
+    height: 60px; /* Adjust this value as needed */
+    background-color: #fff; /* Change to your desired background color */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+}
+
+.scrolled .navbar-brand {
+    font-size: 24px; /* Adjust as needed */
+    padding: 15px 0;
+}
+
+.col-md-12 {
+    height: 500px;
+    width: 700px;
+    border: black;
+}
+  
+  /* Additional styles for navigation links, etc. */
+  

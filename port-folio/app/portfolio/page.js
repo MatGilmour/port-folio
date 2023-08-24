@@ -9,8 +9,7 @@ export default function test() {
         <main>
 
             <div className={styles.main}>
-                <h1>Goteem</h1>
-                <Image src="/images/Goteem.jpg" width={500} height={300} alt="Goteeem"></Image>
+                <h1>Projects</h1>
                 <Link href='./'>GO BACK GO BACK</Link> 
             </div>
         </main>

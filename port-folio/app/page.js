@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
+      <div>
         <p>
           Get started by editing&nbsp;
           <code className={styles.code}>app/page.js</code>
@@ -27,9 +27,6 @@ export default function Home() {
             />
           </a>
         </div>
-      </div>
-      <div>
-        <Link href='/about'>ABOUT</Link>
       </div>
 
     </main>
