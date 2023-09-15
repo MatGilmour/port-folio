@@ -10,7 +10,7 @@ export default function test() {
 
             <div className={styles.main}>
                 <h1>Goteem</h1>
-                <Image src="/images/Goteem.jpg" width={500} height={300} alt="Goteeem"></Image>
+                <Image className='rounded-circle' src="/images/Goteem.jpg" width={500} height={300} alt="Goteeem"></Image>
                 <Link href='./'>GO BACK GO BACK</Link> 
             </div>
         </main>

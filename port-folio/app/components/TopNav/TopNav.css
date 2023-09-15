@@ -1,5 +1,5 @@
 .scroll-navbar {
-    transition: all 0.3s ease-in-out;
+    transition: all 10s ease-in-out;
 }
 
 .scrolled {
@@ -13,11 +13,42 @@
     padding: 15px 0;
 }
 
-.col-md-12 {
-    height: 500px;
-    width: 700px;
-    border: black;
+#navbar-Container {
+    width:100%;
 }
-  
+
+/* div for landing page */
+#navBarFull{
+    height: 800px;
+}
+
+#shortDesc{
+    height: 400px;
+    background-color: #e8dad7bc;
+}
+
+#topNav {
+    background-image: url("/images/navbackground.jpg");
+}
+
+.collapse.show {
+    visibility: visible;
+    height: 600px;
+    transition: height 0.5s ease-in;
+    overflow: hidden;
+}
+
+.collapse {
+    visibility: hidden;
+    height: 0;
+    transition: height 0.5s ease-in;
+}
+
+/* Div for navbar */
+.row-sm-12 {
+    height: 25%;
+    background-color: rgb(192, 227, 241);
+    overflow: hidden;
+}
   /* Additional styles for navigation links, etc. */
   
